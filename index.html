@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockbusterBookings</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <!--Fav Icon -->
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2015/12/09/22/24/filmklappe-1085692_640.png" type="image/x-icon">
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font awesome icon - in body with <i> tag  -->
+
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <header>
+        <img  src="https://cdn.pixabay.com/photo/2015/12/09/22/24/filmklappe-1085692_640.png" alt="">
+        <h1>BlockbusterBookings</h1>
+        
+        <!--<label for="search"><img src="./image/search_icon1.PNG" alt="search icon image"></label>-->
+        <label for="search"><i class='fa-solid fa-magnifying-glass'></i></label>
+
+        <input type="search" id="search" placeholder="Search for Movies you wish to Book">  
+        <button id="btn1" class="button">Home</button>
+        <button id="btn2" class="button">Services</button>
+        <button id="btn6" class="button">About</button>
+        <button id="btn3" class="button">FAQ</button>
+        <button id="btn4" class="button">Login</button>
+        <button id="btn5" class="button">Sign-up</button>
+
+    </header>
+
+
+    <!-- Banner Image -->
+    <div class="banner-cont">
+     <div class="banner"></div>
+    </div>
+    <!-- Section -->
+    <section>
+     <div class="cont">
+      <div class="container">
+        <h2>Recommended Movies</h2>
+        <div class="row">      
+            <div class="col col1">
+                <!--<img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC40LzEwICA0NzAuNUsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00301886-adtpyusrqu-portrait.jpg" alt="Salaar">-->
+                <img class="movie_img" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/salaar-cease-fire--part-1-et00301886-1702971289.jpg" alt="Salaar Part1">
+                <div class="image-container">
+                    <img class="salaar_rate" src="./image/salaar_rating.PNG" alt="">
+                </div>
+                
+                <h2>Salaar:Cease Fire-Part 1 </h2>
+                <h4>Action/Thriller</h4>
+                <button id="btn">Book Now</button>
+            </div>
+            <div class="col">
+                <!--<img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS8xMCAgMzguNksgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00379301-esmzjmyvaj-portrait.jpg" alt="Neru">-->
+                <img class="movie_img" src="./image/Neru_movie_image.avif" alt="Neru">
+                <h2>Neru</h2>
+                <h4>Drama/Thriller</h4>
+                <button id="btn">Book Now</button>
+
+            </div>
+            <div class="col">
+                <!--<img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC42LzEwICA5SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00376678-uvzdrtxnuh-portrait.jpg" alt="Antony">-->
+                <img class="movie_img" src="./image/Antony_movie_image.avif" alt="Antony movie">
+                <h2>Antony (2023)</h2>
+                <h4>Action/Drama</h4>
+                <button id="btn">Book Now</button>
+            </div>
+            <div class="col">
+                <!--<img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny40LzEwICAyMzEuMksgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00326964-gfhauqthan-portrait.jpg" alt="Dunki">-->
+                <img class="movie_img" src="./image/Dunki_movie_image.avif" alt="Dunki hindi movie">
+                <h2>Dunki</h2>
+                <h4>Comedy/Drama</h4>
+                <button id="btn">Book Now</button>
+            </div>
+        </div>
+      </div>
+     </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <p>© 2023 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li><a class="li-items" href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
+                <li><a class="li-items" href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                <li><a class="li-items" href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+              </ul>
+        </div>
+    </footer>
+        
+</body>
+</html>
